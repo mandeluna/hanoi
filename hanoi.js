@@ -34,6 +34,7 @@
  * from = source pin [1,2,3]
  * to = target pin [1,2,3]
  * using = spare pin for temporary movements [1,2,3]
+ * Daniel was here
  */
 function do_hanoi(n, src, dest, using) {
 	if (n == 1) {
@@ -120,7 +121,7 @@ function loaded() {
 					  '#8c564b', '#c49c94', '#e377c2', '#f7b6d2', '#7f7f7f',
 					  '#c7c7c7', '#bcbd22', '#dbdb8d', '#17becf', '#9edae5'];
 
-	var n = 6;
+	var n = 32;
 	var disks = [];
 	var width = 200;
 	for (var i=0; i < n; i++) {

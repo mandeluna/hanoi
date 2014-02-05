@@ -37,3 +37,6 @@ hanoi(1)
 
 print("n = 2")
 hanoi(2)
+
+print("n = 6")
+hanoi(6)
